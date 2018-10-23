@@ -1,0 +1,29 @@
+package package3;
+
+public class IfandElse {
+
+	public static void main(String[] args) {
+			int i=5,j = 1;
+			if (i==1) {
+				if (i<=5) {
+					if (j==1) {
+						{
+							if (j<i) {
+								System.out.println("Hello world");
+
+								System.out.println("Bye");
+							}
+							j++;
+
+						}
+					
+					}
+				}
+				i++;
+			}
+			else {
+				System.out.println("Get Lost");
+			}
+	}
+
+}

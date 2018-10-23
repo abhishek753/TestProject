@@ -1,0 +1,19 @@
+package package3;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		int x=10;
+		int y=1;
+		
+			while (y<=x) {
+				int sum=x*1;
+				System.out.println("Value: "+sum);
+				
+				
+			}
+		}
+
+	
+	}
+

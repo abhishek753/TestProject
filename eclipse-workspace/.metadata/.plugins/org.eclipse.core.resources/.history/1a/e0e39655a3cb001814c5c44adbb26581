@@ -1,0 +1,14 @@
+package package3;
+
+public class NewString {
+
+	public static void main(String[] args) {
+//	char[] HelloArray= {'A','B','H','I','S','H','E','K'};
+//	String HelloString=new String(HelloArray);
+//	System.out.println(HelloString);
+		StringBuffer sBuffer=new StringBuffer("NewString");
+		sBuffer.append(" String Buffer");
+		System.out.println(sBuffer);
+	}
+	
+}

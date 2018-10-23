@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;package3.WhileLoop&apos; to &apos;StarPrint&apos;&#x0D;&#x0A;- Original project: &apos;Automation&apos;&#x0D;&#x0A;- Original element: &apos;package3.WhileLoop&apos;&#x0D;&#x0A;- Renamed element: &apos;package3.StarPrint&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WhileLoop&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;package3{WhileLoop.java[WhileLoop" matchStrategy="1" name="StarPrint" qualified="false" references="true" similarDeclarations="false" stamp="1537873290923" textual="false" version="1.0"/>
+</session>

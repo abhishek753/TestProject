@@ -1,0 +1,16 @@
+package package3;
+
+import java.util.Date;
+
+public class DateDemo {
+
+	public static void main(String[] args) {
+		//Initantiate a Date Object
+	Date date=new Date();
+	//Display Time and Date using toStrng().
+	System.out.println(date.toString());
+	
+
+	}
+
+}

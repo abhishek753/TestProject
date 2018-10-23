@@ -1,0 +1,15 @@
+package package3;
+
+public class ModifierType {
+	
+	
+	private boolean myFlag;
+	static final double week=9.5;
+	protected static final int BoxWidht=49;
+
+	public static void main(String[] args) {
+		
+
+		}
+
+	}

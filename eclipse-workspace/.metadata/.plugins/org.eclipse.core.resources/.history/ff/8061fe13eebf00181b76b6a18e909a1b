@@ -1,0 +1,22 @@
+package package3;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		int x=10;
+		int y=1;
+		while(x<20) {
+			if (y<x) {
+				int sum = 10 * y;
+				System.out.println("Value of X: " +x );
+			System.out.println(sum);
+			x++;
+			sum++;
+			//System.out.println("\n");
+			
+		}
+
+	}
+	}
+
+}

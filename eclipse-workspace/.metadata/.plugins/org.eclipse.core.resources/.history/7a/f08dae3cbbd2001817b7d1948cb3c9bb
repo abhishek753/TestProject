@@ -1,0 +1,9 @@
+package pageObjects;
+
+public class LogIn_Page {
+
+	public static void main(String[] args) {
+
+	}
+
+}

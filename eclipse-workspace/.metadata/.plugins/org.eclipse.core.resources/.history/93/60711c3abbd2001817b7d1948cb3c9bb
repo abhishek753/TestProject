@@ -1,0 +1,9 @@
+package automationFramework;
+
+public class POM_TC {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package automationFramework;
+
+public class Module_TC {
+
+	public static void main(String[] args) {
+
+	}
+
+}

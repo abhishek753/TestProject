@@ -1,0 +1,19 @@
+package package3;
+
+public class NewString {
+
+	public static void main(String[] args) {
+	int a;
+
+	
+	}
+
+	private static int sqrt(int b2) {
+		
+		sqrt(6);
+		System.out.println(+sqrt(6));
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

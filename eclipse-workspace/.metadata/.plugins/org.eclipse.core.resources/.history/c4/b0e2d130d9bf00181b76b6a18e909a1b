@@ -1,0 +1,18 @@
+package package3;
+
+public class ModifierType 
+{
+
+
+
+	private int myFlag=5;
+	static final double week=9.5;
+	protected static final int BoxWidht=49;
+
+	public static void main(String[] args) 
+	{
+		
+      System.out.println("week"+week);
+		}
+
+}	

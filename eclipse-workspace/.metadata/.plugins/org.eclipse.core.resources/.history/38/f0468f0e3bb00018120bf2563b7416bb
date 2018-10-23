@@ -1,0 +1,40 @@
+package Abhi.Automation;
+
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ById;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AbhiTest {
+	public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        System.out.println("enter ur gmail id: ");
+        String id = kb.nextLine();
+        System.out.println("enter ur gmail pass: ");
+        String password = kb.nextLine();
+        
+        
+        WebDriver driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+        driver.get("https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&hl=en&emr=1&elo=1");
+        driver.findElement(By.id("Email")).sendKeys(id);
+        driver.findElement(By.xpath("//input[@id='Passwd']")).sendKeys(password);
+        driver.findElement(By.xpath("//input[@type='checkbox']")).click();
+        driver.findElement(By.name("signIn")).click();
+        
+        String inbox = driver.findElement(By.xpath("//a[@href='https://mail.google.com/mail/u/0/#inbox']")).getText();
+        System.out.println(inbox);
+        
+        //sign out
+        driver.findElement(By.xpath("//span[@class='gb_V gbii']")).click();
+        driver.findElement(By.linkText("Sign out")).click();
+        
+        driver.close();
+        
+    }
+
+}

@@ -1,0 +1,18 @@
+package package3;
+
+public class StarPrint {
+
+	public static void main(String[] args) {
+		int x;
+		int y;
+		int z;
+		for (x=1; x<=5;) {
+//			for(y=5; y<=1; y=-y) {
+				System.out.println("*");
+			}
+			
+		}
+		 
+	   }
+	
+	

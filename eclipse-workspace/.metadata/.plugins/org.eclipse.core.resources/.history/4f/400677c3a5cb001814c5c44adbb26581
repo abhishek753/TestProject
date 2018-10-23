@@ -1,0 +1,29 @@
+package package3;
+
+public class NewString {
+
+	public static void main(String[] args) {
+		
+		//Example for Create the String.
+	char[] HelloArray= {'A','B','H','I','S','H','E','K'};
+	String HelloString=new String(HelloArray);
+	
+	System.out.println(HelloString);
+		
+		//Example for String Buffer.
+		StringBuffer sBuffer=new StringBuffer("NewString");
+		sBuffer.append(" String Buffer");
+		System.out.println(sBuffer);
+		
+		//This use for reverse the String.
+		StringBuffer Buffer=new StringBuffer("nitin");
+		Buffer.reverse();
+		System.out.println(Buffer);
+		
+		// Find the String Length.
+		String Pailndrome=new String("Abhishek");
+		int len=Pailndrome.length();
+		System.out.println("This is the Length of String: "+len);
+	}
+	
+}
